@@ -10,10 +10,13 @@ config_version=5
 
 [application]
 
-config/name="New Game Project"
-config/features=PackedStringArray("4.4", "Forward Plus")
-config/icon="res://icon.svg"
+config/name="first2DProject"
+config/features=PackedStringArray("4.4", "C#", "Forward Plus")
+
+[display]
+
+window/stretch/aspect="keep_width"
 
 [dotnet]
 
-project/assembly_name="New Game Project"
+project/assembly_name="first2DProject"
